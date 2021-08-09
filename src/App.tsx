@@ -1,16 +1,16 @@
 import React from 'react';
-// import { useState } from 'react'
-import Header from './components/Header'
-import Todo from './components/Todo'
-import Footer from './components/Footer'
-
+import logo from './logo.svg';
+import './App.css';
+import Header from './component/Header'
+import Laster from './component/Laster'
+import Todo from './component/Todo'
 
 function App() {
-return (
+  return (
     <div>
-      <Header></Header>
-      <Todo></Todo>
-      <Footer></Footer>
+    <Header></Header>
+     <Todo></Todo>
+     <Laster></Laster>
     </div>
   );
 }
